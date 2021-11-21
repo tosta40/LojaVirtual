@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="imagens/logo 150.png" type="image/x-icon">
+
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="estilo.css" />
+  <title>Seu Carrinho</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="navigation container">
+      <div class="logo">
+        <h1>Tosta Store</h1>
+      </div>
+
+      <div class="menu">
+        <div class="top-nav">
+          <div class="logo">
+            <h1>Tosta Store</h1>
+          </div>
+          <div class="close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="produtos.html" class="nav-link">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="produtosdetaque.html" class="nav-link">Destaque</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Conta</a>
+          </li>
+          <li class="nav-item">
+            <a href="carrinho.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <a href="carrinho.html" class="cart-icon">
+        <i class="bx bx-shopping-bag"></i>
+      </a>
+
+      <div class="hamburger">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cart Items -->
+  <div class="container-md cart">
+    <table>
+      <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagens/macacão.jpg" alt="">
+            <div>
+              <p>Camisetas Femininas</p>
+              <span>Preço: R$50.00</span>
+              <br />
+              <a href="#">retirar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$50.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagens/maiô.jpg" alt="">
+            <div>
+              <p>Camisetas Femininas</p>
+              <span>Preço: R$90.00</span>
+              <br />
+              <a href="#">retirar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$90.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagens/bota.jpg" alt="">
+            <div>
+              <p>Camisetas Femininas</p>
+              <span>Preço: R$60.00</span>
+              <br />
+              <a href="#">retirar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$60.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagens/pijama.jpg" alt="">
+            <div>
+              <p>Camisetas Femininas</p>
+              <span>Preço: R$60.00</span>
+              <br />
+              <a href="#">retirar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$60.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagens/sapato.jpg" alt="">
+            <div>
+              <p>Camisetas Femininas</p>
+              <span>Preço: R$60.00</span>
+              <br />
+              <a href="#">retirar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$60.00</td>
+      </tr>
+    </table>
+
+    <div class="total-Price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>R$200</td>
+        </tr>
+        <tr>
+          <td>Taxa</td>
+          <td>R$50</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>R$250</td>
+        </tr>
+      </table>
+      <a href="#" class="checkout btn">Finalizar Compra</a>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Marcas</a>
+          <a href="#">Certificados de Presente</a>
+          <a href="#">Afiliado</a>
+          <a href="#">Especiais</a>
+          <a href="#">Mapa de Site</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMAÇÃO</h3>
+          <a href="#">Sobre-nós</a>
+          <a href="#">Política e Privacidade</a>
+          <a href="#">Termos e CONDIÇÕES</a>
+          <a href="#">CONTATE-NOS</a>
+          <a href="#">Mapa do Site</a>
+        </div>
+        <div class="footer-center">
+          <h3>MINHA CONTA</h3>
+          <a href="#">Minha Conta</a>
+          <a href="#">Histórico de Pedidos</a>
+          <a href="#">Lista de Desejos</a>
+          <a href="#">Boletim de Notícias</a>
+          <a href="#">Devoluções</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTATE-NOS</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Recantos das Emas CEP 72631-215, Brasilía, Distrito Federal, BRA
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            tostastore.contato@hotmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+           61 98429-5418
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+          Brasilía-BRA
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <!-- Custom Script -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
